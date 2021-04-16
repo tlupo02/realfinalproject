@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html{
+            background-image: url("images/background.jpg");
+            background-attachment: fixed;
+        }
+        body {
+        margin: 0;
+        font-family: Arial;
+        }
+
+        header {
+        text-align: center;
+        padding: 32px;
+        }
+        header img{
+            width: 80%;
+        }
+        header p{
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        .row {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+        }
+
+        /* Create four equal columns that sits next to each other */
+        .column {
+        -ms-flex: 25%; /* IE10 */
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+        }
+
+        .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+        border-radius: 15px;
+        }
+
+        footer{
+            text-align: center;
+            border-top: 5px solid grey;
+            color: black;
+            padding: 5px;
+        }
+
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+        .column {
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+        }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+        .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+        }
+        }
+        </style>
+    </head>
+<body>
+
+<!-- Header -->
+<header>
+  <img src="images/logo.png">
+  <p>2x Grammy Award Winner, 5x Platinum Albums, Over 35 Billion Streams on Spotify</p>
+</header>
+
+<main>
+    <!-- Photo Grid -->
+    <div class="row"> 
+    <div class="column">
+        <img src="images/ari1.jpg" >
+        <img src="images/ari2.jpg" style="width:100%">
+        <img src="images/ari3.jpg" style="width:100%">
+        <img src="images/ari4.jpg" style="width:100%">
+        <img src="images/ari5.jpg" style="width:100%">
+        <img src="images/ari6.jpg" style="width:100%">
+    </div>
+    <div class="column">
+        <img src="images/ari8.jpg" style="width:100%">
+        <img src="images/ari9.jpg" style="width:100%">
+        <img src="images/ari10.jpg" style="width:100%">
+        <img src="images/ari11.jpg" style="width:100%">
+        <img src="images/ari12.jpg" style="width:100%">
+        <img src="images/ari13.jpg" style="width:100%">
+    </div>  
+    <div class="column">
+        <img src="images/ari14.jpg" style="width:100%">
+        <img src="images/ari15.jpg" style="width:100%">
+        <img src="images/ari16.jpg" style="width:100%">
+        <img src="images/ari17.jpg" style="width:100%">
+        <img src="images/ari18.jpg" style="width:100%">
+        <img src="images/ari19.jpg" style="width:100%">
+        <img src="images/ari20.jpg" style="width:100%">
+    </div>
+    <div class="column">
+        <img src="images/ari21.jpg" style="width:100%">
+        <img src="images/ari22.jpg" style="width:100%">
+        <img src="images/ari23.jpg" style="width:100%">
+        <img src="images/ari24.jpg" style="width:100%">
+        <img src="images/ari25.jpg" style="width:100%">
+        <img src="images/ari26.jpg" style="width:100%">
+        <img src="images/ari7.jpg" style="width:100%">
+        
+    </div>
+    </div>
+</main>
+<footer>
+    <p>&copy; 2021 Lupo Productions</p>
+</footer>
+</body>
+</html>
